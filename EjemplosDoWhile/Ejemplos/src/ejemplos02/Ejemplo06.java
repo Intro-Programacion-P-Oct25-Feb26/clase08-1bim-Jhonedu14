@@ -46,6 +46,8 @@ public class Ejemplo06 {
             System.out.println("Valores no son pares");
              tabla = 10;   
              limite = 20; 
+             // Le puse OR por que debes ser los dos impares para 
+             // La expresion debe ser al menos una verdadera
         }
 
         do {
