@@ -13,6 +13,7 @@ import java.util.Scanner;
  * @author reroes
  */
 public class Ejemplo03 {
+    //problema resuelto 
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
@@ -29,6 +30,7 @@ public class Ejemplo03 {
             sumaNotas = sumaNotas + nota;
             cadenaFinal = String.format("%s%.2f\n", cadenaFinal, 
                     nota);
+            // no hay necesidad de entrada.nextline como limpiador buffer
             
             System.out.println("Ingrese (-111) si desea salir del ciclo ");
             salida = entrada.nextInt();
